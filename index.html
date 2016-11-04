@@ -8,22 +8,19 @@
     <h1>Summer 2016 Road Trip</h1>
     <nav>
       <ul>
+        <li><a href="index.html" target="blank">Home</a></li>
         <li><a href="june.html" target="blank">June</a></li>
         <li><a href="july.html" target="blank">July</a></li>
         <li><a href="august.html" target="blank">August</a></li>
-        <li><a href="create_trip.html" target="blank">Create your own Road Trip</a></li>
       </ul>
     </nav>
-  </header>
-    <section>
-      <p>In May 2016, I quit my job in NYC, donated most of possessions, bought a new truck and embarked on an <em>epic</em> 3 month road trip around the USA and Canada.</p>
+      <p>In May 2016, I quit my job in NYC, donated most of possessions, bought a new truck and embarked on an <em>epic</em> 3 month road trip around the USA and Canada. <br>You can navigate around this website to check out where I went each month during the summer.</p>
       <img src="assets/images/index_1.JPG" alt="empty highway" width="700" height="500">
-    
-    </section>
+  </header>
     <section>
       <h2>The Route</h2>
       <img src="assets/images/full_map.png" alt="map of route" width="700" height="500">
-      <p><em><a href="https://creativecommons.org/licenses/by-sa/2.0/" target="blank">Thanks</a> to <a href="http://classic.mapquest.com/" target="blank">mapquest</a> for the publicly licensed <a id="" class="" title="" href="http://mapq.st/2fiPC4g" target="blank">map</a> from 11/2/2016.</em></p>
+      <p><em><a href="https://creativecommons.org/licenses/by-sa/2.0/" target="blank">Thanks</a> to <a href="http://classic.mapquest.com/" target="blank">mapquest</a> for the publicly licensed <a href="http://mapq.st/2fiPC4g" target="blank">map</a> from 11/2/2016.</em></p>
       <h3>Breakdown by Month</h3>
       <table border=1>
         <tr>
@@ -89,7 +86,16 @@
         <td>Silverton</td>
         <td>Colorado</td>
       </tr>
-  </table>
+    </table>
   </section>
+  <form name="roadtrip" action="https://www.roadtrippers.com/" method="post" target="blank">
+    <fieldset> 
+      <label>Would you like to navigate to roadtrippers.com and make your own Road Trip?</label>
+        <input type="radio" name="trip" value="yes" checked>Yes
+        <input type="radio" name="trip" value="no">No
+        <p>This form will submit to a website that I thought was relevant to mine. A link is probably the better option but I wanted to practice building forms. Both Yes and No options will submit to <a href="https://www.roadtrippers.com/">www.roadtrippers.com</a>. This website looks pretty cool and has many different options to choose from. It does seem a little slow which may be caused by all the different elements on the page.</p>
+    </fieldset>
+    <button type="submit">Build a trip</button>
+  </form>
 </body>
 </html>

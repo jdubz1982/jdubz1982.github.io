@@ -1,3 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: blue;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Header */
+header {
+    background: url("../images/index_1.JPG") no-repeat center center;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+}
+header h1 {
+  display: inline-block;
+  position: relative;
+  float: left;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  text-align: right;
+  margin-right: 25px;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 2px 0px 2px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: ;
+
+}
+
+nav a:hover {
+  color: #000;
+  background-color: #fff;
 }

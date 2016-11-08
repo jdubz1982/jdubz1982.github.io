@@ -19,86 +19,90 @@
       </ul>
     </nav>
   </header>
-    <section>
-      <p>In May 2016, I quit my job in NYC, donated most of possessions, bought a new truck and embarked on an <em>epic</em> 3 month road trip around the USA and Canada. You can navigate around this website to check out where I went each month during the summer.</p>
-      <h2>The Route</h2>
-      <img src="assets/images/full_map.png" alt="map of route" width="700" height="500">
-      <p><em><a href="https://creativecommons.org/licenses/by-sa/2.0/" target="blank">Thanks</a> to <a href="http://classic.mapquest.com/" target="blank">mapquest</a> for the publicly licensed <a href="http://mapq.st/2fiPC4g" target="blank">map</a> from 11/2/2016.</em></p>
-      <h3>Breakdown by Month</h3>
-      <table border=1>
-        <tr>
-          <th>Month</th>
-          <th>Start Point</th>
-          <th>End Point</th>
-          <th>Miles Traveled</th>
-        </tr>
-        <tr>
-          <td><a href="june.html">June</a></td>
-          <td>New York, New York</td>
-          <td>Banff, Alberta, Canada</td>
-          <td>3,893 miles</td>
-        </tr>
-        <tr>
-          <td><a href="july.html">July</a></td>
-          <td>Calgary, Albert, Canada</td>
-          <td>Park City, Utah</td>
-          <td>2,711 miles</td>
-        </tr>
-        <tr>
-          <td><a href="august.html">August</a></td>
-          <td>Park City, Utah</td>
-          <td>Austin, Texas</td>
-          <td>2,515 miles</td>
-        </tr>
-        <tr>
-          <td>&nbsp;</td>
-          <td>&nbsp;</td>
-          <td>Total</td>
-          <td>9,119 miles</td>
-        </tr>
-      </table>
+
+    <section class="map">
+      <div>
+        <h2>The Route</h2>
+        <img id="route" src="assets/images/full_map.png" alt="map of route" width="700" height="500">
+        <p><em><a href="https://creativecommons.org/licenses/by-sa/2.0/" target="blank">Thanks</a> to <a href="http://classic.mapquest.com/" target="blank">mapquest</a> for the publicly licensed <a href="http://mapq.st/2fiPC4g" target="blank">map</a> from 11/2/2016.</em></p>
+      </div>
     </section>
-   <section> 
-    <h3>Highlights</h3>
-    <table border=1>
-      <tr>
-        <th>&nbsp;</th>
-        <th>&nbsp;</th>
-        <th colspan=2>Favorite National Park</th>
-        <th colspan=2>Favorite City and State</th>
-      </tr>
-      <tr>
-        <td rowspan=3>Month</td>
-        <td>June</td>
-        <td><a href="june.html">Banff National Park</a></td>
-        <td>Alberta, Canada</td>
-        <td>Minneapolis</td>
-        <td>Minnesota</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td><a href="july.html">Grand Teton National Park</a></td>
-        <td>Wyoming</td>
-        <td>Bozeman</td>
-        <td>Montana</td>
-      </tr>
-      <tr>
-        <td>August</td>
-        <td><a href="august.html">San Juan National Forest</a></td>
-        <td>Colorado</td>
-        <td>Silverton</td>
-        <td>Colorado</td>
-      </tr>
-    </table>
-  </section>
-  <form name="roadtrip" action="https://www.roadtrippers.com" method="post" target="blank">
-    <fieldset> 
-       <label>Would you like to navigate to roadtrippers.com and make your own Road Trip?</label>
-        <input type="radio" name="trip" value="yes" checked>Yes
-        <input type="radio" name="trip" value="no">No
-        <p>This form will submit to a website that I thought was relevant to mine. A link is probably the better option but I wanted to practice building forms. Both Yes and No options will submit to <a href="https://www.roadtrippers.com/">www.roadtrippers.com</a>. This website looks pretty cool and has many different options to choose from. It does seem a little slow which may be caused by all the different elements on the page.</p>
-    </fieldset>
-    <button type="submit">Build a Trip</button>
-  </form>
+
+    <section class="data">
+      <div id="description">
+        <h2>It Begins</h2>
+        <p>In May 2016, I quit my job in NYC, donated most of possessions, bought a new truck and embarked on an <em>epic</em> 3 month road trip around the USA and Canada. You can navigate around this website to check out where I went each month during the summer.</p>
+      </div>
+
+      <div id="breakdown">
+        <h3>Breakdown by Month</h3>
+        <table id="breakdown-month">
+          <tr>
+            <th>Month</th>
+            <th>Start Point</th>
+            <th>End Point</th>
+            <th>Miles Traveled</th>
+          </tr>
+          <tr>
+            <td><a href="june.html">June</a></td>
+            <td>New York, New York</td>
+            <td>Banff, Alberta, Canada</td>
+            <td>3,893 miles</td>
+          </tr>
+          <tr>
+            <td><a href="july.html">July</a></td>
+            <td>Calgary, Albert, Canada</td>
+            <td>Park City, Utah</td>
+            <td>2,711 miles</td>
+          </tr>
+          <tr>
+            <td><a href="august.html">August</a></td>
+            <td>Park City, Utah</td>
+            <td>Austin, Texas</td>
+            <td>2,515 miles</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Total</td>
+            <td>9,119 miles</td>
+          </tr>
+        </table>
+      </div>
+
+      <div id="highlights">
+        <h3>Highlights</h3>
+        <table>
+          <tr>
+            <th>&nbsp;</th>
+            <th>&nbsp;</th>
+            <th colspan=2>Favorite National Park</th>
+            <th colspan=2>Favorite City and State</th>
+          </tr>
+          <tr>
+            <td rowspan=3>Month</td>
+            <td>June</td>
+            <td><a href="june.html">Banff National Park</a></td>
+            <td>Alberta, Canada</td>
+            <td>Minneapolis</td>
+            <td>Minnesota</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td><a href="july.html">Grand Teton National Park</a></td>
+            <td>Wyoming</td>
+            <td>Bozeman</td>
+            <td>Montana</td>
+          </tr>
+          <tr>
+            <td>August</td>
+            <td><a href="august.html">San Juan National Forest</a></td>
+            <td>Colorado</td>
+            <td>Silverton</td>
+            <td>Colorado</td>
+          </tr>
+        </table>
+      </div>
+    </section>
 </body>
 </html>

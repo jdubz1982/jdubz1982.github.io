@@ -1,3 +1,4 @@
+
 html, body {
   margin: 0;
   padding: 0;
@@ -8,10 +9,10 @@ body {
 }
 /* Header */
 header {
-    background: url("../images/index_1.JPG") no-repeat center center;
-    background-size: cover;
-    height: 250px;
-    color: #fff;
+  background: url("../images/index_1.JPG") no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  color: #fff;
 }
 header h1 {
   display: inline-block;
@@ -38,11 +39,10 @@ nav a {
   color: #fff;
   padding: 5px;
   border-radius: 5px;
-  background-color: ;
 }
 
 nav a:hover {
-  color: #000;
+  color: #293f50;
   background-color: #fff;
   font-weight: bold;
 }
@@ -113,4 +113,25 @@ table, th, td  {
   border-radius: 10px;
 }
 
+/* Footer */
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  color: #648880;
+  font-size: 14px;
+}
+footer a {
+  text-decoration: none;
+  color: #648880;
+  padding: 5px;
+  border-radius: 5px;
+}
+footer a:hover {
+  color: #fff;
+  background-color: #293f50;
+  font-weight: bold;
+}
 

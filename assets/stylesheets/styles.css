@@ -168,7 +168,7 @@ footer a:hover {
   color: #648880;
 }
 
-.first-pic, .second-pic {
+.pic {
   display: inline-block;
   vertical-align: top;
   float: left;
@@ -176,10 +176,6 @@ footer a:hover {
   margin-top: -20px;
   text-align: center;
   font-size: 15px;
-}
-
-.second-pic {
-  float: right;
 }
 
 a {
@@ -192,27 +188,18 @@ a:hover {
   font-weight: bold;
 }
 
-.first-pic h3 {
+.pic h3 {
   color: #fff;
   font-size: 20px;
 } 
 
-.second-pic h3 {
-  color: #fff;
-  font-size: 20px;
-}
-
-.first-pic img {
+.pic img {
   border-radius: 2%;
   height: 350px;
   width: 350px;
 }
 
-.second-pic img {
-  border-radius: 2%;
-  height: 350px;
-  width: 350px;
-}
+/* Media Query */
 
 @media screen and (max-width: 1050px) {
   #description h2 {
@@ -235,7 +222,7 @@ a:hover {
     font-size: 12px
   }
 
- .map p {
+  .map p {
     font-size: 14px;
   }
   .map h2 {
@@ -269,12 +256,7 @@ a:hover {
     font-size: 18px
   }
 
-  .first-pic img {
-    height: 200px;
-    width: 200px;
-  }
-
-  .second-pic img {
+  .pic img {
     height: 200px;
     width: 200px;
   }
